@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/s12chung/ezgit/cmd"
 
 func main() {
-	fmt.Println("hello world")
+	cmd.Execute()
 }
